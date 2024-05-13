@@ -1,0 +1,66 @@
+/* end Tipi  di Algoritmi  */
+.Impatti {
+    background-color: var(--gbSoft);
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    padding: 30px;
+}
+.Impatti h1 {
+    margin: auto;
+    padding: 10px 20px;
+    background-color: rgb(245, 49, 49);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.Impatti h1:hover{
+    box-shadow: 5px 5px;
+    background-color: rgb(245, 49, 49);
+}
+.Impatti .container {
+    display: flex;
+    gap: 10px;
+}
+.Impatti .tipi{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    height: 100vh;
+    gap: 40px;
+}
+.Impatti .tipi button{
+   width: 90%;
+   padding: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.5s;
+   font-size: 20px;
+   border: none;
+   background-color: var(--bg);
+}
+.span_btn {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Impatti .tipi button:hover{
+    background-color: rgb(245, 49, 49);
+}
+.Impatti .infor{
+    margin: 50px auto;
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--bg);
+}
+.Impatti .img_info {
+   width: 25px;
+   height: 25px;
+}
+.Impatti .infor .text{
+    margin-top: 30px;
+    font-size: 18px;
+}
+/* end Tipi  di Argb(86, 234, 6)
